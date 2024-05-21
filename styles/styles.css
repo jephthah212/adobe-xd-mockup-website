@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #f60;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.services, .about-us, .testimonials, .contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2, .about-us h2, .testimonials h2, .contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.service-cards, .testimonial-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card, .testimonial {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.card h3 {
+    font-size: 1.5em;
+}
+
+.card p, .testimonial p {
+    font-size: 1em;
+}
+
+.card a {
+    display: block;
+    margin-top: 10px;
+    color: #f60;
+    text-decoration: none;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.contact form input, .contact form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #f60;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-links, .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a, .social-media a {
+    color: #fff;
+    text-decoration: none;
+}
